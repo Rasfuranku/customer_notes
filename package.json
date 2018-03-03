@@ -1,0 +1,19 @@
+{
+  "name": "customer_notes",
+  "version": "1.0.0",
+  "description": "This is a simple web application to manage clients and added notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasfuranku/customer_notes.git"
+  },
+  "author": "@rasfuranku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasfuranku/customer_notes/issues"
+  },
+  "homepage": "https://github.com/Rasfuranku/customer_notes#readme"
+}
