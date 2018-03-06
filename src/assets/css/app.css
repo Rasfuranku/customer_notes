@@ -1,0 +1,34 @@
+body{
+    font-family: 'Roboto';
+    color: #151515;
+}
+#header h1{
+    color: #1E88E5;    
+}
+.center-elements{
+    text-align: center;
+}
+#app .customers td{
+    font-weight: 500;
+    border-bottom: 2px solid #eaeaea;
+}
+#app .customer-description{
+    padding: 15px;
+}
+.customer-info .card__text{text-align: left;}
+.customer-info .card{
+    box-shadow: none;
+}
+.notes{position: relative;}
+.notes .card__text{
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    margin-bottom: 20px;
+    padding: 15px !important;
+    color: #FFF;
+}
+.notes span{
+    position: absolute;
+    right: 0px;
+    top: -15px;
+    font-size: 10px;
+}

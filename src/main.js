@@ -8,9 +8,12 @@ import axios from 'axios';
 Vue.use(VueAxios, axios);
 
 import App from './App.vue';
+import ShowCustomers from './components/ShowCustomers.vue';
 import CreateItem from './components/CreateItem.vue';
-import DisplayItem from './components/DisplayItem.vue';
 import EditItem from './components/EditItem.vue';
+
+import Vuetify from 'vuetify'
+Vue.use(Vuetify)
 
 const routes = [
   {
@@ -19,9 +22,9 @@ const routes = [
         component: CreateItem
     },
     {
-          name: 'DisplayItem',
+          name: 'ShowCustomers',
           path: '/',
-          component: DisplayItem
+          component: ShowCustomers
       },
       {
             name: 'EditItem',

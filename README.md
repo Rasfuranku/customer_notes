@@ -1,10 +1,14 @@
-# VueJSNodeJSTutorial
+# CustomNotes
 
-This is a basic CRUD Application. Which utilizes frontend of VueJS and backend of Node.js
+This is a basic web application that allow you to see your customers, added notes to them and edit those notes.
+Also, you can filter the customers.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The application works with:
+Vue 2.5
+NodeJs 8.9
+MongoDB 3.2
 
 ### Follow the steps
 
@@ -15,14 +19,15 @@ These instructions will get you a copy of the project up and running on your loc
 npm install
 ```
 3) You need to install MongoDB database and also start the server of MongoDB
-4) Go to the project folder >> config >> DB.js file and change the URI according to your database connection and credentials.
+4) The configuration data for the host and the database are in server/config
+5) To start the application yo should type the following commando
 
 ```
-npm start
+npm run start-client
 ```
-5) webpack development server will start at: http://localhost:3000
+5) webpack development server will start at: http://localhost:4000
 6) You also need to start the NodeJS server by typing following command.
 
 ```
-nodemon server
+npm run start-server
 ```
