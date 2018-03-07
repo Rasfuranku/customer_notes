@@ -43,14 +43,7 @@ class CustomerRoute {
                 });
         });
 
-        // app.get(ROUTES.CUSTOMER + '/:id', (req, res) => {
-        //     this.CustomerService.getDetail(req.query.id)
-        //         .then((data) => {
-        //             return res.send(data);
-        //         }, (err) => {
-        //             return res.status(err.code).send(err);
-        //         });
-        // })
+        
 
         app.put(ROUTES.CUSTOMER, (req, res) => {
             this.CustomerService.changeStatus(req.body.id, req.body.status)
