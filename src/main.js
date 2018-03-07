@@ -9,28 +9,16 @@ Vue.use(VueAxios, axios);
 
 import App from './App.vue';
 import ShowCustomers from './components/ShowCustomers.vue';
-import CreateItem from './components/CreateItem.vue';
-import EditItem from './components/EditItem.vue';
 
 import Vuetify from 'vuetify'
 Vue.use(Vuetify)
 
 const routes = [
-  {
-        name: 'CreateItem',
-        path: '/create/item',
-        component: CreateItem
-    },
     {
-          name: 'ShowCustomers',
-          path: '/',
-          component: ShowCustomers
-      },
-      {
-            name: 'EditItem',
-            path: '/edit/:id',
-            component: EditItem
-        }
+        name: 'ShowCustomers',
+        path: '/',
+        component: ShowCustomers
+    }
 ];
 
 const router = new VueRouter({ mode: 'history', routes: routes });

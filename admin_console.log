@@ -260,3 +260,35 @@
 {"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T03:26:04.366Z"}
 {"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T03:26:04.421Z"}
 {"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T03:26:04.422Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T11:32:54.388Z"}
+{"message":"failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]","name":"MongoNetworkError","stack":"MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017]\n    at Pool.<anonymous> (/home/frank.torres/Practice/customer_notes/node_modules/mongodb-core/lib/topologies/server.js:503:11)\n    at emitOne (events.js:116:13)\n    at Pool.emit (events.js:211:7)\n    at Connection.<anonymous> (/home/frank.torres/Practice/customer_notes/node_modules/mongodb-core/lib/connection/pool.js:326:12)\n    at Object.onceWrapper (events.js:317:30)\n    at emitTwo (events.js:126:13)\n    at Connection.emit (events.js:214:7)\n    at Socket.<anonymous> (/home/frank.torres/Practice/customer_notes/node_modules/mongodb-core/lib/connection/connection.js:245:50)\n    at Object.onceWrapper (events.js:315:30)\n    at emitOne (events.js:116:13)\n    at Socket.emit (events.js:211:7)\n    at emitErrorNT (internal/streams/destroy.js:64:8)\n    at _combinedTickCallback (internal/process/next_tick.js:138:11)\n    at process._tickCallback (internal/process/next_tick.js:180:9)","level":"error","timestamp":"2018-03-07T11:32:54.428Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T11:33:17.557Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T11:33:17.607Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T11:33:17.607Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T11:54:18.980Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T11:54:19.067Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T11:54:19.068Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T11:54:29.791Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T11:54:29.840Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T11:54:29.841Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T11:57:10.103Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T11:57:10.203Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T11:57:10.204Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T12:34:42.607Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T12:34:42.607Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T12:34:59.655Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T12:34:59.656Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T12:35:28.143Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T12:35:28.143Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T13:46:42.349Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T13:46:42.399Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T13:46:42.399Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T14:08:03.819Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T14:08:03.875Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T14:08:03.876Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T14:10:23.630Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T14:10:23.685Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T14:10:23.688Z"}
+{"level":"info","message":"Server running at http://0.0.0.0:3000/","timestamp":"2018-03-07T14:11:25.229Z"}
+{"level":"info","message":"Mongo Connection Success to localhost:27017/customer_notes","timestamp":"2018-03-07T14:11:25.475Z"}
+{"level":"info","message":"Current Database customer_notes","timestamp":"2018-03-07T14:11:25.476Z"}

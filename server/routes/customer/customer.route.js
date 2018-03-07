@@ -44,7 +44,6 @@ class CustomerRoute {
         });
 
         
-
         app.put(ROUTES.CUSTOMER, (req, res) => {
             this.CustomerService.changeStatus(req.body.id, req.body.status)
                 .then((data) => {
